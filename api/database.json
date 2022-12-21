@@ -1,0 +1,88 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "reservations": [
+    {
+      "parentName": "John Marston",
+      "childName": "Alex",
+      "childCount": "8",
+      "address": "1874 Aroura Ln",
+      "date": "2022-12-22",
+      "partyLength": "3",
+      "id": 1
+    },
+    {
+      "parentName": "Arthur Morgan",
+      "childName": "Mitchell",
+      "childCount": "4",
+      "address": "8271 June Rd",
+      "date": "2022-12-24",
+      "partyLength": "4",
+      "id": 2
+    },
+    {
+      "parentName": "Charles Xavier",
+      "childName": "Logan",
+      "childCount": "18",
+      "address": "7265 Kelly St",
+      "date": "2022-12-25",
+      "partyLength": "15",
+      "id": 3
+    },
+    {
+      "parentName": "Paul Rudd",
+      "childName": "Morris",
+      "childCount": "28",
+      "address": "2772 Hannibal Ln",
+      "date": "2022-12-18",
+      "partyLength": "6",
+      "id": 4
+    },
+    {
+      "parentName": "George Sr.",
+      "childName": "George Jr.",
+      "childCount": "7",
+      "address": "5677 Manson Blvd",
+      "date": "2022-12-14",
+      "partyLength": "5",
+      "id": 5
+    },
+    {
+      "parentName": "Billy Kid",
+      "childName": "Bob",
+      "childCount": "20",
+      "address": "7892 Werner Rd",
+      "date": "2022-12-16",
+      "partyLength": "7",
+      "id": 6
+    }
+  ],
+  "completions": [
+    {
+      "reservationId": 5,
+      "clownId": 2,
+      "date_created": 1671549153294,
+      "id": 1
+    },
+    {
+      "reservationId": 6,
+      "clownId": 1,
+      "date_created": 1671549155693,
+      "id": 2
+    },
+    {
+      "reservationId": 4,
+      "clownId": 1,
+      "date_created": 1671549160592,
+      "id": 3
+    }
+  ]
+}

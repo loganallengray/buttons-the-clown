@@ -1,0 +1,64 @@
+#reserveListContainer {
+    border: solid 2px #E51414;
+}
+
+#reserveTable ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#reserveTable ul li {
+    padding: 5px;
+}
+
+#reserveTable ul li, .reservationInfo, .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Colors n stuff */
+
+.headerItem {
+    background-color: #E51414;
+    color: #fff;
+}
+
+#reservationList li:nth-child(even) {
+    background-color: #EE9F9F;
+}
+
+#completionList li {
+    background-color: #A4EE9F;
+}
+
+#reserveTable button {
+    background-color: #D84D4D;
+    color: #fff;
+}
+
+/* res Info */
+.reservationInfo {
+    flex-basis: 90%;
+}
+
+.reservationInfo div {
+    flex-basis: 25%;
+}
+
+/* res Options */
+.options {
+    min-width: 100px;
+    flex-basis: 10%;
+}
+
+.options .clowns {
+    margin-right: 5px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.headerItem .clowns {
+    text-align: left;
+}

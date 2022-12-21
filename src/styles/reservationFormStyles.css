@@ -1,0 +1,14 @@
+#reserveForm .label {
+    font-size: 1.1em;
+}
+
+#reserveForm .input {
+    display: block;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+#reserveForm .button {
+    background-color: #59F04F;
+    margin: 10px 0px 0 0;
+}
